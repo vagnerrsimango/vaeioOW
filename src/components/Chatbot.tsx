@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComment } from "@fortawesome/free-solid-svg-icons";
+import { FaComment } from "react-icons/fa";
 
 export default function Chatbot() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,12 +14,11 @@ export default function Chatbot() {
         className="text-white px-4 py-2 rounded-full focus:outline-none mr-8 mb-16 bg-opacity-75 relative"
         onClick={toggleVisibility}
       >
-        <FontAwesomeIcon
+        <FaComment
           className={`absolute top-1/2 left-30 transform -translate-x-1/2 -translate-y-1/2 ${
             isVisible ? "hidden" : "block"
           }`}
           color="white"
-          icon={faComment}
         />
         <div
           className={`bg-white p-4 mt-10 rounded-lg shadow-md ${

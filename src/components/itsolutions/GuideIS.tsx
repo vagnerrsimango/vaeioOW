@@ -3,7 +3,6 @@ import { FaCogs, FaDesktop, FaGlobe, FaMobileAlt } from "react-icons/fa";
 import ReactPlayer from "react-player";
 import "animate.css";
 import PrimulaCard from "./ISCard";
-import video from "@/lib/vid/speedflow.mp4";
 import logo1 from "@/lib/img/modlog1.svg";
 import logo2 from "@/lib/img/modlog2.svg";
 import logo3 from "@/lib/img/modlog3.svg";

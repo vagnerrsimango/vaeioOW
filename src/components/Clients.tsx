@@ -58,6 +58,7 @@ const Clients = () => {
             key={index}
             src={logo}
             width={150}
+            alt="img"
             height={150}
             className={`m-2 ${
               (index === 0 || index === 4) && "opacity-30"
